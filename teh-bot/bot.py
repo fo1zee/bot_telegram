@@ -12,7 +12,7 @@ API_TOKEN = os.getenv('TELEGRAM_API_TOKEN')
 
 logging.basicConfig(level=logging.INFO)
 
-bot = Bot(token="8044141716:AAFwbbi6o6hnHkXGpik7lwEuzZtTjBxC4N4") 
+bot = Bot(token="YOUR_TELEGAM_TOKEN") 
 dp = Dispatcher()
 
 @dp.message(CommandStart())
